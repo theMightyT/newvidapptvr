@@ -1,3 +1,13 @@
 <section id="app">
   <h1>${ message }</h1>
+
+  <h3>Movie:</h3>
+  <pre>{{defaultMovie}}</pre>
+
+  <h3>Data:</h3>
+  <pre>{{data}}</pre>
+
+  {{#each data}}
+    <p>{{data.movies_title}}</p>
+  {{/each}}
 </section>
