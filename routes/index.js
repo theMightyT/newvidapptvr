@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
 
       res.render('home', {        
         defaultMovie : rows[Math.floor(Math.random() * rows.length)],
-        data : JSON.stringify(rows)
+        data : rows
       });
     }
   });
