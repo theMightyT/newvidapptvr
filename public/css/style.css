@@ -56,6 +56,13 @@ video { width: 100%; }
 
 .movie-thumb { width: 160px; }
 
+.thumb-container {
+  display: inline-block;
+  width: 160px;
+  height: 235px;
+  overflow:hidden;
+}
+
 .genre-list {
   padding: 0 14px;
   list-style-type: none;
