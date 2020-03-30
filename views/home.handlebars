@@ -2,14 +2,14 @@
   <h1>${ message }</h1>
 
   <h3>Movie:</h3>
-  <pre>{{defaultMovie}}</pre>
+
 
   <h3>Data:</h3>
-  <pre>{{data}}</pre>
+  <pre>{{defaultMovie.movies_cover}}</pre>
 
   {{#each data}}
-    <div class="thumb-container">
-      <img src="/images/{{movies_cover}}" alt="" class="movie-thumb">
-    </div>
+  <div class="thumb-container">
+    <img src="/images/{{movies_cover}}" alt="" class="movie-thumb">
+  </div>
   {{/each}}
 </section>
